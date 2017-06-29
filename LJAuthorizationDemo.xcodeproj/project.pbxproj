@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01A6D0D1F04E90100CC56F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A6D0C1F04E90100CC56F2 /* main.m */; };
+		B01A6D101F04E90100CC56F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A6D0F1F04E90100CC56F2 /* AppDelegate.m */; };
+		B01A6D131F04E90100CC56F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A6D121F04E90100CC56F2 /* ViewController.m */; };
+		B01A6D161F04E90100CC56F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01A6D141F04E90100CC56F2 /* Main.storyboard */; };
+		B01A6D181F04E90100CC56F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01A6D171F04E90100CC56F2 /* Assets.xcassets */; };
+		B01A6D1B1F04E90100CC56F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01A6D191F04E90100CC56F2 /* LaunchScreen.storyboard */; };
+		B01A6D281F0504F600CC56F2 /* LJAuthorizationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A6D271F0504F600CC56F2 /* LJAuthorizationTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B01A6D081F04E90100CC56F2 /* LJAuthorizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJAuthorizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01A6D0C1F04E90100CC56F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B01A6D0E1F04E90100CC56F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B01A6D0F1F04E90100CC56F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B01A6D111F04E90100CC56F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B01A6D121F04E90100CC56F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B01A6D151F04E90100CC56F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B01A6D171F04E90100CC56F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B01A6D1A1F04E90100CC56F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B01A6D1C1F04E90100CC56F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01A6D261F0504F600CC56F2 /* LJAuthorizationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJAuthorizationTool.h; sourceTree = "<group>"; };
+		B01A6D271F0504F600CC56F2 /* LJAuthorizationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJAuthorizationTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01A6D051F04E90100CC56F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01A6CFF1F04E90100CC56F2 = {
+			isa = PBXGroup;
+			children = (
+				B01A6D0A1F04E90100CC56F2 /* LJAuthorizationDemo */,
+				B01A6D091F04E90100CC56F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B01A6D091F04E90100CC56F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01A6D081F04E90100CC56F2 /* LJAuthorizationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01A6D0A1F04E90100CC56F2 /* LJAuthorizationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B01A6D251F0504F600CC56F2 /* LJAuthorizationTool */,
+				B01A6D0E1F04E90100CC56F2 /* AppDelegate.h */,
+				B01A6D0F1F04E90100CC56F2 /* AppDelegate.m */,
+				B01A6D111F04E90100CC56F2 /* ViewController.h */,
+				B01A6D121F04E90100CC56F2 /* ViewController.m */,
+				B01A6D141F04E90100CC56F2 /* Main.storyboard */,
+				B01A6D171F04E90100CC56F2 /* Assets.xcassets */,
+				B01A6D191F04E90100CC56F2 /* LaunchScreen.storyboard */,
+				B01A6D1C1F04E90100CC56F2 /* Info.plist */,
+				B01A6D0B1F04E90100CC56F2 /* Supporting Files */,
+			);
+			path = LJAuthorizationDemo;
+			sourceTree = "<group>";
+		};
+		B01A6D0B1F04E90100CC56F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B01A6D0C1F04E90100CC56F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B01A6D251F0504F600CC56F2 /* LJAuthorizationTool */ = {
+			isa = PBXGroup;
+			children = (
+				B01A6D261F0504F600CC56F2 /* LJAuthorizationTool.h */,
+				B01A6D271F0504F600CC56F2 /* LJAuthorizationTool.m */,
+			);
+			path = LJAuthorizationTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01A6D071F04E90100CC56F2 /* LJAuthorizationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01A6D1F1F04E90100CC56F2 /* Build configuration list for PBXNativeTarget "LJAuthorizationDemo" */;
+			buildPhases = (
+				B01A6D041F04E90100CC56F2 /* Sources */,
+				B01A6D051F04E90100CC56F2 /* Frameworks */,
+				B01A6D061F04E90100CC56F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJAuthorizationDemo;
+			productName = LJAuthorizationDemo;
+			productReference = B01A6D081F04E90100CC56F2 /* LJAuthorizationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01A6D001F04E90100CC56F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jiji;
+				TargetAttributes = {
+					B01A6D071F04E90100CC56F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9S959SBGCQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B01A6D031F04E90100CC56F2 /* Build configuration list for PBXProject "LJAuthorizationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01A6CFF1F04E90100CC56F2;
+			productRefGroup = B01A6D091F04E90100CC56F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01A6D071F04E90100CC56F2 /* LJAuthorizationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01A6D061F04E90100CC56F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A6D1B1F04E90100CC56F2 /* LaunchScreen.storyboard in Resources */,
+				B01A6D181F04E90100CC56F2 /* Assets.xcassets in Resources */,
+				B01A6D161F04E90100CC56F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01A6D041F04E90100CC56F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01A6D131F04E90100CC56F2 /* ViewController.m in Sources */,
+				B01A6D281F0504F600CC56F2 /* LJAuthorizationTool.m in Sources */,
+				B01A6D101F04E90100CC56F2 /* AppDelegate.m in Sources */,
+				B01A6D0D1F04E90100CC56F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B01A6D141F04E90100CC56F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01A6D151F04E90100CC56F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B01A6D191F04E90100CC56F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01A6D1A1F04E90100CC56F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B01A6D1D1F04E90100CC56F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01A6D1E1F04E90100CC56F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01A6D201F04E90100CC56F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9S959SBGCQ;
+				INFOPLIST_FILE = LJAuthorizationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jiji.LJAuthorizationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B01A6D211F04E90100CC56F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9S959SBGCQ;
+				INFOPLIST_FILE = LJAuthorizationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jiji.LJAuthorizationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01A6D031F04E90100CC56F2 /* Build configuration list for PBXProject "LJAuthorizationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01A6D1D1F04E90100CC56F2 /* Debug */,
+				B01A6D1E1F04E90100CC56F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01A6D1F1F04E90100CC56F2 /* Build configuration list for PBXNativeTarget "LJAuthorizationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01A6D201F04E90100CC56F2 /* Debug */,
+				B01A6D211F04E90100CC56F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01A6D001F04E90100CC56F2 /* Project object */;
+}

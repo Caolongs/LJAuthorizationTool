@@ -75,24 +75,28 @@
             break;
             
         case LJAuthorizationStatusDenied:
+        {
+            UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"授权失败" message:@"前往设置-" preferredStyle:UIAlertControllerStyleAlert];
+            
+            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"我知道了" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+                
+            }];
+            [alertController addAction:cancelAction];
+            
+            UIAlertAction *setAction = [UIAlertAction actionWithTitle:@"现在设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+                [LJAuthorizationTool openURLToSetting];
+            }];
+            
+            [alertController addAction:setAction];
+            
+            [self presentViewController:alertController animated:YES completion:nil];
+        }
             break;
         case LJAuthorizationStatusRestricted:
             
         {
             
-            UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"授权成功" message:@"可以访问你要访问的内容了" preferredStyle:UIAlertControllerStyleAlert];
             
-            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"我知道了" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-                
-            }];
-            UIAlertAction *setAction = [UIAlertAction actionWithTitle:@"现在设置" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-                [LJAuthorizationTool openURLToSetting];
-            }];
-            [alertController addAction:cancelAction];
-            [alertController addAction:setAction];
-            
-            
-            [self presentViewController:alertController animated:YES completion:nil];
         }
             break;
             
